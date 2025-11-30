@@ -1,0 +1,25 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"eyebrow": {
+				"__TYPE__": "FieldContent",
+				"value": "birds",
+				"type": "Text"
+			},
+			"text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Aute nostrud laborum irure velit id ipsum ex. In velit sit occaecat esse deserunt excepteur eu culpa officia culpa amet magna ea. Adipisicing ut aliqua duis veniam consequat tempor adipisicing ipsum proident commodo est laboris."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

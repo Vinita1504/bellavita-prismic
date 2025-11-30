@@ -31,7 +31,9 @@ export const RevealText = ({
   const words = asText(field).split(" ");
    
   useGSAP(() => {
-     gsap.to(".reveal-text-word",{
+    // const mm = gsap.matchMedia()
+    // mm.add("(prefers-reduced-motion: no-preference)" , () => {
+        gsap.to(".reveal-text-word",{
         y:0,
         stagger: staggerAmount,
         duration: duration,
@@ -40,6 +42,8 @@ export const RevealText = ({
      })
   },{ scope: componentRef})
  
+    // })
+     
    
   return (
     <Component
